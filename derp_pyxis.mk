@@ -12,6 +12,9 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_INCLUDE_WIFI_EXT := true
 
+# Nuke gapps include
+DERP_BUILD_ZIP_TYPE=VANILLA
+
 # Inherit from pyxis device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
