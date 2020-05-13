@@ -15,6 +15,9 @@ TARGET_INCLUDE_WIFI_EXT := true
 # Nuke gapps include
 DERP_BUILD_ZIP_TYPE=VANILLA
 
+# FOD
+TARGET_HAS_FOD := true
+
 # Inherit from pyxis device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
